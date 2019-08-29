@@ -82,7 +82,6 @@ def print_mimic(mimic_dict, word):
 
 # Provided main(), calls mimic_dict() and mimic()
 
-
 def main():
     if len(sys.argv) != 2:
         print('usage: python mimic.py file-to-read')
@@ -94,3 +93,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+#fixing for pull request. accidentally pushed to master. Redo
